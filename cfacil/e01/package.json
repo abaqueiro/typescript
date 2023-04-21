@@ -9,6 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "npx tsc index.ts && node index.js"
+    , "start:01": "npx tsc 01-types.ts --outdir dist/ && node dist/01-types.js"
     , "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
