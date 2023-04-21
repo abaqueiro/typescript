@@ -1,0 +1,22 @@
+
+# to create package.json
+npm init
+
+# to install globally
+npm install -g typescript
+
+# when you installed globally new commands are available
+# for example you can traspile typescript into javascript
+tsc file.ts
+# will result in a file.js created
+
+# to install a package in the current project
+npm install typescript
+
+# no commands are created in the PATH but you can run them using npx
+# example for the transpile ej.
+npx tsc file.ts
+
+
+
+
