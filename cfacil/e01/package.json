@@ -14,6 +14,7 @@
     , "start:03": "npx tsc 03-interface.ts --outdir dist/ && node dist/03-interface.js"
     , "start:04": "npx tsc 04-custom-types.ts --outdir dist/ && node dist/04-custom-types.js"
     , "start:05": "npx tsc 05-extends.ts --outdir dist/ && node dist/05-extends.js"
+    , "start:06": "npx tsc 06-classes.ts --outdir dist/ && node dist/06-classes.js"
     , "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
