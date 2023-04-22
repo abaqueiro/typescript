@@ -7,7 +7,8 @@ type Persona = {
 	comentarios?: string //optional
 }
 
-var unaPersona: Persona = {
+// a constant can not be redefined, and should be initialized on the same expression
+const unaPersona: Persona = {
 	nombre: 'Alfonso'
 	, apaterno: 'Baqueiro'
 	, amaterno: 'Bernal'
@@ -15,6 +16,7 @@ var unaPersona: Persona = {
 
 console.log( typeof unaPersona )
 console.log( JSON.stringify(unaPersona) )
+
 
 // declare several valid types for a ServiceResponse
 type ServiceResponse = string | null | number | undefined
