@@ -12,6 +12,7 @@
     , "start:01": "npx tsc 01-types.ts --outdir dist/ && node dist/01-types.js"
     , "start:02": "npx tsc 02-enum.ts --outdir dist/ && node dist/02-enum.js"
     , "start:03": "npx tsc 03-interface.ts --outdir dist/ && node dist/03-interface.js"
+    , "start:04": "npx tsc 04-custom-types.ts --outdir dist/ && node dist/04-custom-types.js"
     , "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
