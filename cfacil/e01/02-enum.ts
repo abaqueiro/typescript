@@ -29,14 +29,3 @@ enum Level {
 	, LOW = 'low'
 }
 
-// you can define Interfaces
-interface Person {
-	name: string
-	code: string
-	charge: string
-	description: string
-}
-var persona1: Person  = {
-	name: 'Poncho'
-}
-
