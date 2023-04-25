@@ -1,7 +1,7 @@
 {
   "name": "e01",
   "version": "1.0.0",
-  "description": "",
+  "description": "My practice code for codigofacilito typescript course",
   "main": "index.js",
   "dependencies": {
     "typescript": "^5.0.4"
@@ -17,9 +17,10 @@
     , "start:06": "npx tsc 06-classes.ts --outdir dist/ && node dist/06-classes.js"
     , "start:07": "npx tsc 07-interfaces-and-inheritance.ts --outdir dist/ && node dist/07-interfaces-and-inheritance.js"
     , "start:08": "npx tsc 08-functions.ts --outdir dist/ && node dist/08-functions.js"
+    , "start:09": "npx tsc 09-namespaces.ts lib/Geometry.ts --outFile dist/09-namespaces.js && node dist/09-namespaces.js"
     , "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alfonso Baqueiro Bernal",
   "license": "ISC"
 }
